@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas no HTML</title>
+</head>
+<body>
+    <h1>Usando tabelas no HTML</h1>
+    <table> <!--TAG de container principal da tabela-->
+        <tr> <!--TAG usada para inserir as linha composta por colunas-->
+            <td></td> <!--TAG usada para inserir as colunas e precisa está dentro da linhas-->
+            <th></th> <!--TAG usada para inserir colunas que represente títulos-->
+        </tr>
+    </table> 
+    <thead></thead> <!--TAG usada para armazenar o cabeçalho-->
+    <tbody></tbody> <!--TAG usada para armazenar o corpo-->
+    <tfoot></tfoot> <!--TAG usada para armazenar o rodapé-->
+    <h2>Tabela Simples</h2>
+    <table>
+        <tr>
+            <td>Mateus</td>
+            <td>Desenvolvedor</td>
+            <td>Júnior</td>
+        </tr>
+        <tr>
+            <td>Rodrigo</td>
+            <td>Desenvolvedor</td>
+            <td>Pleno</td>
+        </tr>
+        <tr>
+            <td>Laecio</td>
+            <td>Desenvolvedor</td>
+            <td>Sênior</td>
+        </tr>
+    </table>
+    <h2>Tabela com Título</h2>
+    <table width="50%">
+        <tr>
+            <th>Nome</th>
+            <th>Cargo</th>
+            <th>Nível</th>
+        </tr>
+        <tr>
+            <td>Mateus</td>
+            <td>Desenvolvedor</td>
+            <td>Júnior</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>Analista de TI</td>
+            <td>Terceiro Nível</td>
+        </tr>
+    </table>
+    <h2>Tabela com cabeçalho</h2>
+    <table width="5%">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Cargo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mateus</td>
+                <td>Desenvolvedor</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Aprovado</th>
+                <th>Sim</th>
+            </tr>
+        </tfoot>
+    </table>
+    <h2>Tabela com colspan</h2>
+    <table>
+        <tr>
+            <td>Aluno</td>
+            <td colspan="2">Disciplina</td>
+        </tr>
+        <tr>
+            <td>Mateus</td>
+            <td>HTML</td>
+            <td>Ambiente Web</td>
+        </tr>
+    </table>
+    <h2>Tabela com rowspan</h2>
+    <table width="25%">
+        <tr>
+            <td>Aluno</td>
+            <td rowspan="2">Disciplina</td>
+        </tr>
+        <tr>
+            <td>Mateus</td>
+            <td>HTML</td>
+            <td>Ambiente Web</td>
+        </tr>
+    </table>
+</body>
+</html>
